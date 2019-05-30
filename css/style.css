@@ -1,0 +1,325 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box; }
+
+.container {
+  max-width: 1170px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
+section {
+  padding: 50px 0;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.pointer {
+  cursor: pointer; }
+
+.text-white {
+  color: white; }
+
+.playfair {
+  font-family: 'Playfair Display', serif; }
+
+.roboto {
+  font-family: 'Roboto', sans-serif; }
+
+.open-sans {
+  font-family: 'Open Sans', sans-serif; }
+
+.bold {
+  font-size: bold; }
+
+.flowers-one {
+  background: url(../img/flowers-one.png); }
+
+.flowers-blue {
+  background-color: #eaf2f9; }
+
+.flowers-pink {
+  background-color: #f9eaf0; }
+
+.flowers-two {
+  background: url(../img/flowers-two.png); }
+
+.services-back {
+  padding: 16px 16px 10px 16px; }
+  .services-back .inside-white-back, .services-back .inside-wrap {
+    width: 231px;
+    height: 558px;
+    padding: 38px 5px 0 5px;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    text-align: center; }
+    .services-back .inside-white-back .playfair, .services-back .inside-wrap .playfair {
+      font-size: 20px;
+      padding: 31px 50px 25px 50px; }
+    .services-back .inside-white-back .roboto, .services-back .inside-wrap .roboto {
+      font-size: 14px;
+      line-height: 27px;
+      width: 100%; }
+    .services-back .inside-white-back .black-line, .services-back .inside-wrap .black-line {
+      margin: 25px 0; }
+    .services-back .inside-white-back .price, .services-back .inside-wrap .price {
+      font-size: 18px; }
+  .services-back .inside-white-back {
+    background-color: white; }
+  .services-back .inside-wrap {
+    border: 2px solid white; }
+
+.wedding-one {
+  background: url(../img/wedding-one.png); }
+
+.wedding-two {
+  background: url(../img/wedding-two.png); }
+
+.wedding-three {
+  background: url(../img/wedding-three.png); }
+
+.wedding-four {
+  background: url(../img/wedding-four.png); }
+
+.wedding-one, .wedding-two, .wedding-three, .wedding-four {
+  width: 292.5px;
+  height: 630px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 258px 0 0 0; }
+  .wedding-one:hover div, .wedding-two:hover div, .wedding-three:hover div, .wedding-four:hover div {
+    display: block; }
+  .wedding-one img:hover, .wedding-two img:hover, .wedding-three img:hover, .wedding-four img:hover {
+    -webkit-transform: rotateY(360deg);
+    transform: rotateY(360deg);
+    -webkit-transition: 2s;
+    -o-transition: 2s;
+    transition: 2s; }
+  .wedding-one p, .wedding-two p, .wedding-three p, .wedding-four p {
+    font-family: 'bayscriptregular';
+    font-size: 36px;
+    text-align: center;
+    width: 100%; }
+  .wedding-one div, .wedding-two div, .wedding-three div, .wedding-four div {
+    background-color: white;
+    padding: 37px 68px;
+    margin-top: 111px;
+    display: none; }
+    .wedding-one div button, .wedding-two div button, .wedding-three div button, .wedding-four div button {
+      width: 156px;
+      height: 46px;
+      background-color: black;
+      border: none;
+      position: relative; }
+      .wedding-one div button:hover, .wedding-two div button:hover, .wedding-three div button:hover, .wedding-four div button:hover {
+        background-color: red;
+        -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+        transform: scale(1.05);
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s; }
+      .wedding-one div button img, .wedding-two div button img, .wedding-three div button img, .wedding-four div button img {
+        position: absolute;
+        top: 40px;
+        left: 71px; }
+
+.rectangle {
+  margin-top: 30px;
+  width: 168px;
+  height: 168px;
+  background-color: #e7a580; }
+  .rectangle img, .rectangle div {
+    width: inherit;
+    height: inherit; }
+
+.edge-left {
+  margin-left: 0; }
+
+.edge-right {
+  margin-right: 0; }
+
+.feedback {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -webkit-flex-direction: column;
+  -ms-flex-direction: column;
+  flex-direction: column; }
+  .feedback h2 {
+    font-size: 24px;
+    text-align: center; }
+    .feedback h2::before, .feedback h2::after {
+      content: "";
+      display: inline-block;
+      width: 200px;
+      height: 1px;
+      background-color: black;
+      margin: 0 5% 0.5% 5%; }
+  .feedback button {
+    margin: 40px auto;
+    width: 156px;
+    height: 46px;
+    background-color: transparent;
+    border: 1px solid black;
+    position: relative; }
+    .feedback button:hover {
+      background-color: black;
+      color: white;
+      -webkit-transform: scale(1.05);
+      -ms-transform: scale(1.05);
+      transform: scale(1.05);
+      -webkit-transition: 1s;
+      -o-transition: 1s;
+      transition: 1s; }
+    .feedback button img {
+      position: absolute;
+      top: 40px;
+      left: 71px;
+      background-color: white; }
+
+footer {
+  margin: 50px 0 0 0;
+  padding: 75px 0 25px 0;
+  border-top: 1px solid #e8e8e8; }
+  footer nav {
+    margin: 0 auto; }
+    footer nav ul {
+      list-style: none; }
+      footer nav ul li {
+        display: inline;
+        padding-left: 50px; }
+        footer nav ul li a {
+          text-decoration: none;
+          font-size: 15px;
+          font-weight: bold;
+          color: black; }
+          footer nav ul li a:hover {
+            text-decoration: underline; }
+      footer nav ul .edge {
+        padding: 0; }
+  footer .info {
+    padding: 75px 0 0 0;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap; }
+    footer .info .describe, footer .info .quote, footer .info .subscribe {
+      width: 30%; }
+    footer .info .describe {
+      font-size: 13px;
+      color: #989898;
+      line-height: 22px; }
+    footer .info .quote {
+      display: -webkit-box;
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: flex;
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+      flex-direction: column;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center; }
+      footer .info .quote p {
+        width: 100%;
+        padding: 30px 0;
+        font-size: 15px;
+        line-height: 24px;
+        color: #989898;
+        text-align: center; }
+      footer .info .quote .logo {
+        background: url(../img/logo.png);
+        width: 71px;
+        height: 66px;
+        margin-top: 40px; }
+    footer .info .subscribe .open-sans-bold {
+      font-size: 15px;
+      padding-bottom: 21px;
+      font-weight: bold; }
+    footer .info .subscribe button {
+      width: 137px;
+      height: 40px;
+      background-color: black;
+      border: none; }
+      footer .info .subscribe button:hover {
+        -webkit-transform: scale(1.1);
+        -ms-transform: scale(1.1);
+        transform: scale(1.1);
+        -webkit-transition: 1s;
+        -o-transition: 1s;
+        transition: 1s; }
+    footer .info .subscribe .tel-mail {
+      padding-top: 100px; }
+      footer .info .subscribe .tel-mail a {
+        text-decoration: none;
+        color: black; }
+      footer .info .subscribe .tel-mail p {
+        text-align: right;
+        padding-top: 10px;
+        font-size: 13px; }
+
+@media screen and (max-width: 1200px) {
+  section {
+    -webkit-justify-content: space-around;
+    -ms-flex-pack: distribute;
+    justify-content: space-around; }
+    section .services-back, section .wedding-one, section .wedding-two, section .wedding-three, section .wedding-four {
+      margin-top: 30px; }
+  .feedback h2 {
+    font-size: 24px;
+    text-align: center;
+    line-height: 50px; }
+    .feedback h2::before, .feedback h2::after {
+      content: "";
+      display: block;
+      width: 200px;
+      height: 1px;
+      background-color: black;
+      margin: 0 auto; }
+  footer .info .describe, footer .info .quote, footer .info .subscribe {
+    padding: 20px; } }
+
+@media screen and (max-width: 800px) {
+  footer .info .describe, footer .info .quote, footer .info .subscribe {
+    width: 100%;
+    text-align: center; } }
